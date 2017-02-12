@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">StudyUp</string>
-<<<<<<< HEAD
     <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->
@@ -15,7 +14,6 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-=======
     <string-array name="class_array">
         <item>Class 1</item>
         <item>Class 2</item>
@@ -24,5 +22,4 @@
         <item>Class 5</item>
     </string-array>
     <string name="title_activity_home">Home</string>
->>>>>>> 22b3e947d3acd96c8edb087cf8c4736dd1cf177d
 </resources>
