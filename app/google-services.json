@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "167777268506",
+    "firebase_url": "https://studyup-e2bbe.firebaseio.com",
+    "project_id": "studyup-e2bbe",
+    "storage_bucket": "studyup-e2bbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167777268506:android:c4d865fa35b59d10",
+        "android_client_info": {
+          "package_name": "studyup.studyup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167777268506-c372dknq4g0iqehonkp309p6jbgvfd27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "studyup.studyup",
+            "certificate_hash": "A0F3BF559C2BD2A177169C86D76FD8A845389D60"
+          }
+        },
+        {
+          "client_id": "167777268506-7809p2p36qnqhuvsmkkp6fakr2g699cb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaqRUI8gqaWk5TfXTm2Vz3j5PhXIGoOfM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167777268506-7809p2p36qnqhuvsmkkp6fakr2g699cb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
