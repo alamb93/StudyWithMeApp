@@ -3,6 +3,7 @@ package studyup.studyup;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -48,7 +49,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
      * TODO: remove after connecting to a real authentication system.
      */
     private static final String[] DUMMY_CREDENTIALS = new String[]{
-            "foo@example.com:hello", "bar@example.com:world"
+            "anl4ds@virginia.edu:kitty", "mhn5et@virginia.edu:password"
     };
     /**
      * Keep track of the login task to ensure we can cancel it if requested.
@@ -318,7 +319,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 String[] pieces = credential.split(":");
                 if (pieces[0].equals(mEmail)) {
                     // Account exists, return true if the password matches.
-                    return pieces[1].equals(mPassword);
+                    if (pieces[1].equals(mPassword)){
+                        Intent intent = new Intent(LoginActivity.this , main.class);
+                        startActivity(intent);
+                    }
                 }
             }
 

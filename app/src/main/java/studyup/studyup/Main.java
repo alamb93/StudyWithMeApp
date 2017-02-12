@@ -17,4 +17,9 @@ public class main extends AppCompatActivity {
         Intent intent = new Intent(this, settings.class);
         startActivity(intent);
     }
+
+    public void logout (View view) {
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
+    }
 }
