@@ -58,12 +58,12 @@ public class request extends FragmentActivity
     }
 
     public void onRequestClick(View view) {
-        EditText commentEdit   = (EditText)findViewById(R.id.editText10);
+        EditText commentEdit= (EditText)findViewById(R.id.editText10);
         String comm = commentEdit.getText().toString();
         Spinner classSelect = (Spinner)findViewById(R.id.spinner);
         String clas = classSelect.getSelectedItem().toString();
-        swipe req1 = new swipe(35.904613, -79.0193, clas, comm, "Maggie");
+        swipe req1 = new swipe(35.904613, -79.0193, clas, comm, "Alyssa");
 
-        mDatabase.child(req1.user).setValue(req1);
+        mDatabase.child("swipes").child(req1.user).setValue(req1);
     }
 }
