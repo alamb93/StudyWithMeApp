@@ -16,7 +16,8 @@
         android:text="Homepage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button3" />
+        android:id="@+id/button3"
+        android:onClick="onClickHome" />
 
     <Button
         android:text="Login Page"
@@ -35,5 +36,6 @@
         android:text="Request Page"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button4" />
+        android:id="@+id/button4"
+        android:onClick="onClickRequest" />
 </LinearLayout>
